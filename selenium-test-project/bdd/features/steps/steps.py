@@ -1,7 +1,9 @@
 from behave import given, when, then
 
+
 def sum_of_items(items_list):
     return sum(items_list)
+
 
 def sum_of_values(items_values):
     return sum(items_values)
